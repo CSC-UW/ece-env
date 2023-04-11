@@ -1,0 +1,21 @@
+[tool.isort]
+profile = "black"
+
+[tool.poetry]
+name = "ece-env"
+version = "0.0.1"
+description = "\"Graham's environment for extracellular electrophysiology\""
+authors = ["Graham Findlay <gfindlay@wisc.edu>"]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+ecephys = {path = "../ecephys", develop = true}
+wisc-ecephys-tools = {path = "../wisc_ecephys_tools", develop = true}
+discoflow = {path = "../discoflow", develop = true}
+seahorse = {path = "../seahorse", develop = true}
+spikeinterface = {path = "../spikeinterface", develop = true}
+seaborn = "^0.12.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
