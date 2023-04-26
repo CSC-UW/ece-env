@@ -319,18 +319,18 @@ css = ["tinycss2 (>=1.1.0,<1.2)"]
 
 [[package]]
 name = "boto3"
-version = "1.26.116"
+version = "1.26.118"
 description = "The AWS SDK for Python"
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 files = [
-    {file = "boto3-1.26.116-py3-none-any.whl", hash = "sha256:40d6fb099f7e6041ddcc72aadc37d2eaae6f32d1f7cf2ef5c02199a114be60a3"},
-    {file = "boto3-1.26.116.tar.gz", hash = "sha256:bfb16f1978be69fdee39b692fe639b5f9c430d33843d282889a59e61ae132051"},
+    {file = "boto3-1.26.118-py3-none-any.whl", hash = "sha256:1ff703152553f4d5fc9774071d114dbf06ec661eb1b29b6051f6b1f9d0c24873"},
+    {file = "boto3-1.26.118.tar.gz", hash = "sha256:d0ed43228952b55c9f44d1c733f74656418c39c55dbe36bc37feeef6aa583ded"},
 ]
 
 [package.dependencies]
-botocore = ">=1.29.116,<1.30.0"
+botocore = ">=1.29.118,<1.30.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.6.0,<0.7.0"
 
@@ -339,14 +339,14 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.29.116"
+version = "1.29.118"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 files = [
-    {file = "botocore-1.29.116-py3-none-any.whl", hash = "sha256:c058baa1d374111ad2036e1f7d9fe715571b6d66d180a224208fc7fef9bc3c80"},
-    {file = "botocore-1.29.116.tar.gz", hash = "sha256:907dec71437386867000912c2427845f482feef5327e7c659e3e81766aac3d34"},
+    {file = "botocore-1.29.118-py3-none-any.whl", hash = "sha256:44cb088a73b02dd716c5c5715143a64d5f10388957285246e11f3cc893eebf9d"},
+    {file = "botocore-1.29.118.tar.gz", hash = "sha256:b51fc5d50cbc43edaf58b3ec4fa933b82755801c453bf8908c8d3e70ae1142c1"},
 ]
 
 [package.dependencies]
@@ -978,6 +978,7 @@ ripple-detection = "^1.1.0"
 scikit-learn = "^1.1.1"
 scipy = "^1.8.1"
 seaborn = "^0"
+sortednp = "^0.4.0"
 ssqueezepy = "^0.6.3"
 statsmodels = "^0.13.2"
 tdt = "^0.5.3"
@@ -1080,13 +1081,13 @@ devel = ["colorama", "json-spec", "jsonschema", "pylint", "pytest", "pytest-benc
 
 [[package]]
 name = "findlibs"
-version = "0.0.2"
+version = "0.0.5"
 description = "A packages to search for shared libraries on various platforms"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "findlibs-0.0.2.tar.gz", hash = "sha256:6c7e038496f9a97783ab2cd5736bb68522d5bebd8b0eb17c976b6a4ae4032c8d"},
+    {file = "findlibs-0.0.5.tar.gz", hash = "sha256:7a801571e999d0ee83f9b92cbb598c21f861ee26ca9dba74cea8958ba4335e7e"},
 ]
 
 [[package]]
@@ -1869,7 +1870,7 @@ files = [
 [[package]]
 name = "kcsd"
 version = "2.0"
-description = ""
+description = "kernel current source density methods"
 category = "main"
 optional = false
 python-versions = "*"
@@ -2863,14 +2864,14 @@ resolved_reference = "fb03ca0b57d7d468e63ba48b46a4d00a8d23bcb2"
 
 [[package]]
 name = "one-api"
-version = "1.21.3"
+version = "1.21.4"
 description = "Open Neurophysiology Environment"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "ONE-api-1.21.3.tar.gz", hash = "sha256:a890097e90638166f7ff1a756d88daa0662e73a89fa7b3514a50a40f42ab72fe"},
-    {file = "ONE_api-1.21.3-py3-none-any.whl", hash = "sha256:8a0b896050b52ec81aa9c0f201f0ce2b286ef2988088545749823bd9fb6a97d8"},
+    {file = "ONE-api-1.21.4.tar.gz", hash = "sha256:8a63dbb5296b346496d279dee64b4e5efffddbefe6e431437375a5dd41221db8"},
+    {file = "ONE_api-1.21.4-py3-none-any.whl", hash = "sha256:bdbb507e8a2a49f687647413e3cff0e4a87a0137f65f017650ae51a8a9b51aea"},
 ]
 
 [package.dependencies]
@@ -2879,7 +2880,7 @@ flake8 = ">=3.7.8"
 iblutil = ">=1.1.0"
 numpy = ">=1.18"
 packaging = "*"
-pandas = ">=1.2.4"
+pandas = ">=1.2.4,<2.0.0"
 pyyaml = "*"
 requests = ">=2.22.0"
 tqdm = ">=4.32.1"
@@ -3724,33 +3725,33 @@ files = [
 
 [[package]]
 name = "pyqt5-sip"
-version = "12.12.0"
+version = "12.12.1"
 description = "The sip module support for PyQt5"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "PyQt5_sip-12.12.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:4e683dcbdc9e7d36d7ccba82cf20e4835b54bb212470a8467f1d4b620ddeef6a"},
-    {file = "PyQt5_sip-12.12.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:7ca01f0508782374ad3621296780fbb31ac3c6f6c8ba1e7051cc4c08354c46a3"},
-    {file = "PyQt5_sip-12.12.0-cp310-cp310-win32.whl", hash = "sha256:7741a57bf7980ef16ee975ea9790f95616d532053e4a4f16bf35449333cbcc5b"},
-    {file = "PyQt5_sip-12.12.0-cp310-cp310-win_amd64.whl", hash = "sha256:660416500991c4eaf20730c2ec4897cd75b476fae9c80fe09fa0f98750693516"},
-    {file = "PyQt5_sip-12.12.0-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:e77e683916f44b82f880155e0c13566ad285c5708c53287d67b4c2971c4579a3"},
-    {file = "PyQt5_sip-12.12.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:e19fcd0536cb74eda5dfab24490cb20966d371069a95f81f56cb9de7c18c2bee"},
-    {file = "PyQt5_sip-12.12.0-cp311-cp311-win32.whl", hash = "sha256:da0c653c3a9843e0bb3bdd43c773c07458a0ae78bd056ebcad0b59ce1aa91e1c"},
-    {file = "PyQt5_sip-12.12.0-cp311-cp311-win_amd64.whl", hash = "sha256:56d08c822a8b4f0950285d1b316d81c3b80bf3ba8d98efc035a205051f03a05d"},
-    {file = "PyQt5_sip-12.12.0-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:d763dde46d5754c44aed1fbd9ef030c0850b8b341834b4d274d64f8fb1b25a05"},
-    {file = "PyQt5_sip-12.12.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:21639b03429baae810119239592762da9a30fa0fe3b1c2e26f456cf1a77a3cc0"},
-    {file = "PyQt5_sip-12.12.0-cp37-cp37m-win32.whl", hash = "sha256:d33ec957b9c104b56756cc10f82e544d41d64d0e2048c95ba1b64ef6d1ad55dc"},
-    {file = "PyQt5_sip-12.12.0-cp37-cp37m-win_amd64.whl", hash = "sha256:1b0203381b895097c41cd1ca6bba7d88fd0d2fa8c3dde6d55c1bb95141080f35"},
-    {file = "PyQt5_sip-12.12.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:96ec94a7239f83e30b4c37a7f89c75df3504918a372d968e773532b5fbc7d268"},
-    {file = "PyQt5_sip-12.12.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:6e4becfdbbe1da70887cd6baa0ef1ec394d81a39522e54a3118d1757e2fd0e06"},
-    {file = "PyQt5_sip-12.12.0-cp38-cp38-win32.whl", hash = "sha256:bc0df0e4a95e2dc394009cf473098deb318ba6c5208390acc762889a253ef802"},
-    {file = "PyQt5_sip-12.12.0-cp38-cp38-win_amd64.whl", hash = "sha256:d26078f436952d774c51599b90d5aa4b9533406f7d65e0d80931a87a24268836"},
-    {file = "PyQt5_sip-12.12.0-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:d66df3702adf375ec8d4d69ec2a80f57ea899180b1db62188c6313a2f81085da"},
-    {file = "PyQt5_sip-12.12.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:382a85ae7218de9b5ed136d0d865b49c09063e1ca428ed6901b1a5860223b444"},
-    {file = "PyQt5_sip-12.12.0-cp39-cp39-win32.whl", hash = "sha256:a04933dacbba804623c5861d214e217e7e3454beab84566ba5e02c86fb86eded"},
-    {file = "PyQt5_sip-12.12.0-cp39-cp39-win_amd64.whl", hash = "sha256:1e91834cc98fda25c232666ca2e77b14520b47b1cee8d38bc93dbe0cd951443e"},
-    {file = "PyQt5_sip-12.12.0.tar.gz", hash = "sha256:01bc2d443325505b07d35e4a70d239b4f97b77486e29117fb67f927a15cd8061"},
+    {file = "PyQt5_sip-12.12.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:7ed598ff1b666f9e5e0214be7840f308f8fb347fe416a2a45fbedab046a7120b"},
+    {file = "PyQt5_sip-12.12.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:644310dcfed4373075bc576717eea60b0f49899beb5cffb204ddaf5f27cddb85"},
+    {file = "PyQt5_sip-12.12.1-cp310-cp310-win32.whl", hash = "sha256:51720277a53d99bac0914fb970970c9c2ec1a6ab3b7cc5580909d37d9cc6b152"},
+    {file = "PyQt5_sip-12.12.1-cp310-cp310-win_amd64.whl", hash = "sha256:2a344855b9c57d37cf000afa46967961122fb1867faee4f53054ebaa1ce51e24"},
+    {file = "PyQt5_sip-12.12.1-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:59229c8d30141220a472ba4e4212846e8bf0bed84c32cbeb57f70fe727c6dfc2"},
+    {file = "PyQt5_sip-12.12.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:5a9cbcfe8c15d3a34ef33570f0b0130b8ba68b98fd6ec92c28202b186f3ab870"},
+    {file = "PyQt5_sip-12.12.1-cp311-cp311-win32.whl", hash = "sha256:7afc6ec06e79a3e0a7b447e28ef46dad372bdca32e7eff0dcbac6bc53b69a070"},
+    {file = "PyQt5_sip-12.12.1-cp311-cp311-win_amd64.whl", hash = "sha256:b5b7a6c76fe3eb6b245ac6599c807b18e9a718167878a0b547db1d071a914c08"},
+    {file = "PyQt5_sip-12.12.1-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:3dad0b2bbe0bae4916e43610186d425cd186469b2e6c7ff853177c113b6af6ed"},
+    {file = "PyQt5_sip-12.12.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:d1378815b15198ce6dddd367fbd81f5c018ce473a89ae938b7a58e1d97f25b10"},
+    {file = "PyQt5_sip-12.12.1-cp37-cp37m-win32.whl", hash = "sha256:2e3d444f5cb81261c22e7c9d3a9a4484bb9db7a1a3077559100175d36297d1da"},
+    {file = "PyQt5_sip-12.12.1-cp37-cp37m-win_amd64.whl", hash = "sha256:eee684532876775e1d0fa20d4aae1b568aaa6c732d74e6657ee832e427d46947"},
+    {file = "PyQt5_sip-12.12.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:1364f460ae07fc2f4c42dd7a3b3738611b29f5c033025e5e70b03e2687d4bda4"},
+    {file = "PyQt5_sip-12.12.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:6cb6139b00e347e7d961467d092e67c47a97893bc6ab83104bcaf50bf4815036"},
+    {file = "PyQt5_sip-12.12.1-cp38-cp38-win32.whl", hash = "sha256:9e21e11eb6fb468affe0d72ff922788c2adc124480bb274941fce93ddb122b8f"},
+    {file = "PyQt5_sip-12.12.1-cp38-cp38-win_amd64.whl", hash = "sha256:f5ac060219c127a5b9009a4cfe33086e36c6bb8e26c0b757b31a6c04d29d630d"},
+    {file = "PyQt5_sip-12.12.1-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:a65f5869f3f35330c920c1b218319140c0b84f8c49a20727b5e3df2acd496833"},
+    {file = "PyQt5_sip-12.12.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:e0241b62f5ca9aaff1037f12e6f5ed68168e7200e14e73f05b632381cee0ff4b"},
+    {file = "PyQt5_sip-12.12.1-cp39-cp39-win32.whl", hash = "sha256:0e30f6c9b99161d8a524d8b7aa5a001be5fe002797151c27414066b838beaa4e"},
+    {file = "PyQt5_sip-12.12.1-cp39-cp39-win_amd64.whl", hash = "sha256:8a2e48a331024a225128f94f5d0fb8089e924419693b2e03eda4d5dbc4313b52"},
+    {file = "PyQt5_sip-12.12.1.tar.gz", hash = "sha256:8fdc6e0148abd12d977a1d3828e7b79aae958e83c6cb5adae614916d888a6b10"},
 ]
 
 [[package]]
@@ -4542,14 +4543,14 @@ win32 = ["pywin32"]
 
 [[package]]
 name = "setuptools"
-version = "67.6.1"
+version = "67.7.1"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "setuptools-67.6.1-py3-none-any.whl", hash = "sha256:e728ca814a823bf7bf60162daf9db95b93d532948c4c0bea762ce62f60189078"},
-    {file = "setuptools-67.6.1.tar.gz", hash = "sha256:257de92a9d50a60b8e22abfcbb771571fde0dbf3ec234463212027a4eeecbe9a"},
+    {file = "setuptools-67.7.1-py3-none-any.whl", hash = "sha256:6f0839fbdb7e3cfef1fc38d7954f5c1c26bf4eebb155a55c9bf8faf997b9fb67"},
+    {file = "setuptools-67.7.1.tar.gz", hash = "sha256:bb16732e8eb928922eabaa022f881ae2b7cdcfaf9993ef1f5e841a96d32b8e0c"},
 ]
 
 [package.extras]
@@ -4689,6 +4690,40 @@ pyparsing = ">=2.1.6"
 
 [package.extras]
 test = ["hypothesis", "pytest"]
+
+[[package]]
+name = "sortednp"
+version = "0.4.0"
+description = "Merge and intersect sorted numpy arrays."
+category = "main"
+optional = false
+python-versions = ">=3"
+files = [
+    {file = "sortednp-0.4.0-cp35-cp35m-manylinux1_i686.whl", hash = "sha256:af83cb46c4fa35288d16f1550a6ec40bd865a909640e92b4d3d16c0a7d7d8529"},
+    {file = "sortednp-0.4.0-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:dada9f29b7dfd589e9a3f12cdc8484898a49e9c6e4d182d46798a9e8eabfddea"},
+    {file = "sortednp-0.4.0-cp35-cp35m-manylinux2010_i686.whl", hash = "sha256:f9fd982771f9a053d4e89160219b9a9622eb90690b89233000702bab32a605a3"},
+    {file = "sortednp-0.4.0-cp35-cp35m-manylinux2010_x86_64.whl", hash = "sha256:43b50e77a0f5ddbce3e0864507ec6b8fb94b6eddc481a2846609499d6b022ba7"},
+    {file = "sortednp-0.4.0-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:b916e97dec8fc2f1032c24505e5f6dd3ab3798d2a21c0c40a65f47c6157b0374"},
+    {file = "sortednp-0.4.0-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:8cccf8f54de06cc21036ab530da0e4b1e3c749504ac33bb8c1f984820f708b97"},
+    {file = "sortednp-0.4.0-cp36-cp36m-manylinux2010_i686.whl", hash = "sha256:fe3cf250ff32bb4eb7b79351c6e9309655c41f885e3af0ceb0edf5811d265908"},
+    {file = "sortednp-0.4.0-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:7e9591b3b237b10ad8c7dc85b49c6c9dfa1a316ebd79a6994f6b1e09f6517566"},
+    {file = "sortednp-0.4.0-cp37-cp37m-manylinux1_i686.whl", hash = "sha256:595ccf3b96c8788ff230db7e730a8530eaa41e3db5f7ecc5a8e125724dafb6df"},
+    {file = "sortednp-0.4.0-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:418a4db80f494c7d1b5ed45da266306a930b789fbb5b81e2f451e68bdb4ea060"},
+    {file = "sortednp-0.4.0-cp37-cp37m-manylinux2010_i686.whl", hash = "sha256:8d396c4b9b34b672ee15988891520c95463fd6a062784f1fff06739c2dad3bdd"},
+    {file = "sortednp-0.4.0-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:64c3df93e0323b8b26f07c4b1514da74f59a9cbd93b1725eb66217a21043bbaa"},
+    {file = "sortednp-0.4.0-cp38-cp38-manylinux1_i686.whl", hash = "sha256:ba2e5c76fd6fbb75176edf16bf88aa483fe58bfa7a33ff0bfca3c52074504bbc"},
+    {file = "sortednp-0.4.0-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:1d6d7be8161845962f18890cfb7ad6c3c15a2e7ae2b26d0bdafe1f17b5cc9b8a"},
+    {file = "sortednp-0.4.0-cp38-cp38-manylinux2010_i686.whl", hash = "sha256:6366d6aad08052122dafc371d7f9b9b4524998a83fc6e850a0d7470e5ae64339"},
+    {file = "sortednp-0.4.0-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:28b499fafc5f14a74924c0e8b78038d46d58824308b27437a277434c79efa4de"},
+    {file = "sortednp-0.4.0-cp39-cp39-manylinux1_i686.whl", hash = "sha256:e99c74f40319072089b19ce668d2737334ff5a3bcd06a8551eecfe6ee9b68d28"},
+    {file = "sortednp-0.4.0-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:e53d90de98ea8cc72b319797197ae11a798a5d4ed59c238fa4eb8b83cb387748"},
+    {file = "sortednp-0.4.0-cp39-cp39-manylinux2010_i686.whl", hash = "sha256:e469c372e3ec4a8fcd2811734b5e9939a7fcefdf698584b36078b9df45d7228a"},
+    {file = "sortednp-0.4.0-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:0f8a4c4c140de4c0375c6525d993fcfececc59e805b0c17057dd0c27900cdf19"},
+    {file = "sortednp-0.4.0.tar.gz", hash = "sha256:96dc648030e00d3ff2626ea9fdd6a958caa2bcd0418124a8d2c984ce925df8a5"},
+]
+
+[package.dependencies]
+numpy = ">=1.14"
 
 [[package]]
 name = "soupsieve"
@@ -4851,7 +4886,7 @@ numpy = "*"
 [[package]]
 name = "tensorpac"
 version = "0.6.5"
-description = ""
+description = "Tensor-based Phase-Amplitude Coupling"
 category = "main"
 optional = false
 python-versions = "*"
