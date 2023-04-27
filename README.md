@@ -26,5 +26,6 @@ git clone https://github.com/grahamfindlay/seahorse.git
 mamba create -n ece python=3.10 pyqt
 mamba activate ece
 cd ~/projects/ece/ece-env
+pip install sortednp --no-deps
 poetry install
 ```
