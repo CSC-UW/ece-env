@@ -1510,6 +1510,39 @@ traitlets = "<6"
 docs = ["Sphinx (>=1.5)", "myst-nb", "sphinx-book-theme", "sphinx-copybutton", "sphinx-thebe", "sphinx-togglebutton"]
 
 [[package]]
+name = "ipyparallel"
+version = "8.6.1"
+description = "Interactive Parallel Computing with IPython"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "ipyparallel-8.6.1-py3-none-any.whl", hash = "sha256:39324d481759f74c9be4fb0deb025d446de6246f08fb81490443c9f55e2f056c"},
+    {file = "ipyparallel-8.6.1.tar.gz", hash = "sha256:a39aa5ef9560170bf0e9afedca9ff045e1b9c1832c49303377edcc91cea9fb77"},
+]
+
+[package.dependencies]
+decorator = "*"
+entrypoints = "*"
+ipykernel = ">=4.4"
+ipython = ">=4"
+jupyter-client = "*"
+psutil = "*"
+python-dateutil = ">=2.1"
+pyzmq = ">=18"
+tornado = ">=5.1"
+tqdm = "*"
+traitlets = ">=4.3"
+
+[package.extras]
+benchmark = ["asv"]
+labextension = ["jupyter-server", "jupyterlab (>=3)"]
+nbext = ["jupyter-server", "notebook"]
+retroextension = ["jupyter-server", "retrolab"]
+serverextension = ["jupyter-server"]
+test = ["ipython[test]", "pytest", "pytest-asyncio", "pytest-cov", "testpath"]
+
+[[package]]
 name = "ipython"
 version = "8.12.0"
 description = "IPython: Productive Interactive Computing"
@@ -5359,4 +5392,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10"
-content-hash = "a7dc4c9d9972e8f1f9e3f3509de2c142ae4d5ce8e1d1b44495629e2d0b9385dc"
+content-hash = "f90e81886cf84b337da09b7fd036d680aa0413ea3c9ce6f29f93ca24461efc26"
