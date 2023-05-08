@@ -20,12 +20,12 @@ git clone https://github.com/CSC-UW/spikeinterface.git
 # These following repositories are really not essential, but you might as well
 git clone https://github.com/CSC-UW/discoflow.git
 git clone https://github.com/grahamfindlay/seahorse.git
+git clone https://github.com/CSC-UW/ephyviewer.git
 ```
 4. Install
 ```
-mamba create -n ece python=3.10 pyqt
+mamba create -n ece python=3.11 pyqt sortednp
 mamba activate ece
 cd ~/projects/ece/ece-env
-pip install sortednp --no-deps
 poetry install
 ```
