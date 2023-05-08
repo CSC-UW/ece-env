@@ -5,11 +5,7 @@ On e.g. `tononi-2`:
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
 bash Mambaforge-$(uname)-$(uname -m).sh
 ```
-2. Install poetry version 1.3.1 (to avoid keyring issues with latest version)
-```
-curl -sSL https://install.python-poetry.org | python3 - --version 1.3.1
-```
-3. Clone all the repositories you will need:
+2. Clone all the repositories you will need:
 ```
 mkdir ~/projects/ece/
 cd ~/projects/ece/
@@ -22,10 +18,10 @@ git clone https://github.com/CSC-UW/discoflow.git
 git clone https://github.com/grahamfindlay/seahorse.git
 git clone https://github.com/CSC-UW/ephyviewer.git
 ```
-4. Install
+3. Install
 ```
-mamba create -n ece python=3.11 pyqt sortednp
-mamba activate ece
 cd ~/projects/ece/ece-env
-poetry install
+mamba create -n ece python=3.11 pyqt sortednp
+mamba env update -n ece -f environment.yml
+mamba activate ece
 ```
