@@ -2,7 +2,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - pyqt
+  - pyside6
   - sortednp
   - pip
   - pip:
@@ -12,3 +12,4 @@ dependencies:
     - -e ../ephyviewer --config-settings editable_mode=compat
     - -e ../discoflow --config-settings editable_mode=compat
     - -e ../seahorse --config-settings editable_mode=compat
+    - -e ../kCSD-python --config-settings editable_mode=compat

@@ -17,11 +17,12 @@ git clone https://github.com/CSC-UW/spikeinterface.git
 git clone https://github.com/CSC-UW/discoflow.git
 git clone https://github.com/grahamfindlay/seahorse.git
 git clone https://github.com/CSC-UW/ephyviewer.git
+git clone https://github.com/CSC-UW/kCSD-python.git
 ```
 3. Install
 ```
 cd ~/projects/ece/ece-env
-mamba create -n ece python=3.11 pyqt sortednp
+mamba create -n ece python=3.11
 mamba env update -n ece -f environment.yml
 mamba activate ece
 ```
