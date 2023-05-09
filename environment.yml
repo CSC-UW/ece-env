@@ -6,9 +6,9 @@ dependencies:
   - sortednp
   - pip
   - pip:
-    - -e ../ecephys
-    - -e ../wisc_ecephys_tools
-    - -e ../spikeinterface
-    - -e ../ephyviewer
-    - -e ../discoflow
-    - -e ../seahorse
+    - -e ../ecephys --config-settings editable_mode=compat
+    - -e ../wisc_ecephys_tools --config-settings editable_mode=compat
+    - -e ../spikeinterface --config-settings editable_mode=compat
+    - -e ../ephyviewer --config-settings editable_mode=compat
+    - -e ../discoflow --config-settings editable_mode=compat
+    - -e ../seahorse --config-settings editable_mode=compat
