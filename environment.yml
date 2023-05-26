@@ -6,7 +6,6 @@ dependencies:
   - sortednp
   - pip
   - pip: # Remember, this is very sensitive to order...
-    - -e ../kCSD-python --config-settings editable_mode=compat
     - -e ../spikeinterface --config-settings editable_mode=compat
     - -e ../ephyviewer --config-settings editable_mode=compat
     - -e ../ecephys --config-settings editable_mode=compat
