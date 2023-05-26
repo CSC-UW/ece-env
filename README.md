@@ -17,7 +17,6 @@ git clone https://github.com/CSC-UW/spikeinterface.git
 git clone https://github.com/CSC-UW/discoflow.git
 git clone https://github.com/grahamfindlay/seahorse.git
 git clone https://github.com/CSC-UW/ephyviewer.git
-git clone https://github.com/CSC-UW/kCSD-python.git
 ```
 3. Install
 ```
