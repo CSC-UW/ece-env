@@ -2,8 +2,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - pyside6 # Probably should be pyside2
-  - sortednp
   - pip
   - pip: # Remember, this is very sensitive to order...
     - -e ../spikeinterface --config-settings editable_mode=compat
