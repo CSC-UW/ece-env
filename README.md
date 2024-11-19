@@ -1,3 +1,4 @@
+*Updated 11/19/2024.*
 On e.g. `tononi-2`:
 
 1. Install miniforge
