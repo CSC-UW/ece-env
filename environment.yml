@@ -1,7 +1,7 @@
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.12
   - pip
   - pip: # Remember, this is very sensitive to order...
     - -e ../spikeinterface --config-settings editable_mode=compat
