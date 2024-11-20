@@ -11,13 +11,14 @@ bash Miniforge3-$(uname)-$(uname -m).sh
 mkdir ~/projects/ece/
 cd ~/projects/ece/
 git clone https://github.com/grahamfindlay/ece-env.git
+git clone https://github.com/CSC-UW/spikeinterface.git # Be mindful of branch. You may want wisc/dev. Currently experimenting with using upstream spikeinterface[full] instead of our fork.
+git clone https://github.com/CSC-UW/ephyviewer.git # You may be able to get away with just the PyPI version of this.
+git clone https://github.com/CSC-UW/kCSD-python.git # Can hopefully just use PyPI version once scipy.integrate.simpson is used
 git clone https://github.com/CSC-UW/ecephys.git
 git clone https://github.com/CSC-UW/wisc_ecephys_tools.git
-git clone https://github.com/CSC-UW/spikeinterface.git # Be mindful of branch. You may want wisc/dev.
-# These following repositories are really not essential, but you might as well
-git clone https://github.com/CSC-UW/discoflow.git
+# These following repositories are really not essential, but you might choose to install one (or both) of them.
 git clone https://github.com/grahamfindlay/seahorse.git
-git clone https://github.com/CSC-UW/ephyviewer.git
+git clone https://github.com/CSC-UW/discoflow.git
 ```
 3. Install
 ```

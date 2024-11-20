@@ -5,8 +5,9 @@ dependencies:
   - pip
   - pip: # Remember, this is very sensitive to order...
     - -e ../spikeinterface --config-settings editable_mode=compat
+    - -e ../kCSD-python --config-settings editable_mode=compat
     - -e ../ephyviewer --config-settings editable_mode=compat
     - -e ../ecephys --config-settings editable_mode=compat
     - -e ../wisc_ecephys_tools --config-settings editable_mode=compat
-    - -e ../discoflow --config-settings editable_mode=compat
-    - -e ../seahorse --config-settings editable_mode=compat
+    # - -e ../discoflow --config-settings editable_mode=compat
+    # - -e ../seahorse --config-settings editable_mode=compat
