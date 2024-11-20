@@ -27,3 +27,7 @@ mamba create -n ece python=3.12 # The bottleneck is currently numba, which as of
 mamba env update -n ece -f environment.yml
 mamba activate ece
 ```
+You might need PySide6 + Qt6 for ephyviewer:
+```
+pip install PySide6
+```
