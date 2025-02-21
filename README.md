@@ -1,5 +1,8 @@
-*Updated 11/19/2024.*
-On e.g. `tononi-2`:
+*Updated 2/21/2025.*
+
+| :warning: WARNING           |
+|:----------------------------|
+| This information is outdated. I know recommend using `uv` to manage your environments.     |
 
 1. Install miniforge
 ```
@@ -11,7 +14,7 @@ bash Miniforge3-$(uname)-$(uname -m).sh
 mkdir ~/projects/ece/
 cd ~/projects/ece/
 git clone https://github.com/grahamfindlay/ece-env.git
-git clone https://github.com/CSC-UW/spikeinterface.git # Be mindful of branch. You may want wisc/dev. Unfortunate we cannot use upstream spikeinterface[full] without significant refactoring.
+git clone https://github.com/CSC-UW/spikeinterface.git # Be mindful of branch. wisc/sorting for running sorting, wisc/dev for everything else. Unfortunate we cannot use upstream spikeinterface[full] without significant refactoring of `ecephys`. See that README for more.
 git clone https://github.com/CSC-UW/ephyviewer.git # You may be able to get away with just the PyPI version of this.
 git clone https://github.com/CSC-UW/kCSD-python.git # Can hopefully just use PyPI version once scipy.integrate.simpson is used
 git clone https://github.com/CSC-UW/ecephys.git
@@ -23,7 +26,7 @@ git clone https://github.com/CSC-UW/discoflow.git
 3. Install
 ```
 cd ~/projects/ece/ece-env
-mamba create -n ece python=3.12 # The bottleneck is currently numba, which as of 11/19/2024 does not support python 3.13 (but should by the end of the year).
+mamba create -n ece python=3.12 # 3.13 should work. The bottleneck was numba.
 mamba env update -n ece -f environment.yml
 mamba activate ece
 ```
