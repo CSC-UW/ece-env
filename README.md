@@ -1,8 +1,11 @@
 *Updated 2/21/2025.*
 
-| :warning: WARNING           |
-|:----------------------------|
-| This information is outdated. I know recommend using `uv` to manage your environments.     |
+| :warning: WARNING            |
+|:-----------------------------|
+| This information is outdated.|
+
+I now recommend using `uv` to manage your environments. If you do, much of the complexity below dissapears. 
+Hopefully, this repositoy can be archived soon.
 
 1. Install miniforge
 ```
