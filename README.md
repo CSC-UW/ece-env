@@ -29,6 +29,6 @@ git clone https://github.com/CSC-UW/discoflow.git
 3. Install
 ```
 cd ~/projects/ece/ece-env
-mamba create -n ece python=3.12 # 3.13 should work. The bottleneck was numba.
+mamba create -n ece python=3.13.2 # Confirmed to work.
 mamba env update -n ece -f environment.yml
 mamba activate ece
